@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unknown Racing</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#0b0b0b; color:#fff; }
+    header { display:flex; justify-content:space-between; padding:20px; background:#000; position:sticky; top:0; }
+    header a { color:#fff; text-decoration:none; margin:0 10px; }
+    .hero { height:90vh; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)); }
+    .hero h1 { font-size:3rem; margin:0; }
+    .hero p { margin:10px 0; font-size:1.2rem; }
+    .btn { padding:12px 25px; background:red; color:#fff; border:none; cursor:pointer; margin-top:15px; }
+    section { padding:60px 20px; text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; }
+    .card { background:#111; padding:20px; border-radius:10px; }
+    footer { background:#000; padding:20px; text-align:center; }
+  </style>
+</head>
+<body><header>
+  <div><strong>UNKNOWN RACING</strong></div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#join">Join</a>
+    <a href="#about">About</a>
+  </nav>
+</header><section class="hero" id="home">
+  <h1>UNKNOWN RACING</h1>
+  <p>Built Different. Ride Unknown.</p>
+  <button class="btn">Join The Movement</button>
+</section><section id="shop">
+  <h2>Shop Merch</h2>
+  <div class="grid">
+    <div class="card">Hoodies</div>
+    <div class="card">T-Shirts</div>
+    <div class="card">Caps</div>
+  </div>
+</section><section id="join">
+  <h2>Join The Community</h2>
+  <p>Connect with riders and become part of the Unknown.</p>
+  <button class="btn">Join WhatsApp</button>
+</section><section id="about">
+  <h2>About Us</h2>
+  <p>Unknown Racing is more than a brand — it's a brotherhood of riders who live for the streets, the machines, and the freedom of the ride.</p>
+</section><footer>
+  <p>© 2026 Unknown Racing</p>
+</footer></body>
+</html>
